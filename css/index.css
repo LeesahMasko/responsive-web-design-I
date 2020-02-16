@@ -85,6 +85,9 @@ header nav div{
     opacity: 50%;
     width: 100%;
 }
+.logoTopTablet{
+    display: none;
+   }
 .logoBottom{
     display: none;
 }
@@ -141,6 +144,7 @@ button{
     align-content: center;
 	justify-content: center;
     align-items: center;
+    border-bottom: 1px solid black;
   
 }
 
@@ -159,9 +163,10 @@ footer{
   .contact{
 	display: flex;
 	flex-direction: column;
-	border-top: 1px solid black;
 	justify-content: space-around;
     height: 15vh;
+    margin-top: 20px;
+  
     
 }
 h3{
@@ -170,8 +175,95 @@ h3{
 .contact .info{
 	font-size: 15px;
 }
+.phone{
+    margin: 10px 0;
+}
 footer{
 	display:flex;
 	justify-content: center;
 	padding: 20px 0;
+}
+
+@media(min-width:768px){
+    .TopTabletLogoContainer{
+        display: flex;
+        justify-content: center;
+           }
+    .logoTopTablet{
+        display: flex;
+    }
+    .logoBottom{
+        display: none;
+    }
+    .logoTop{
+        display: none;
+    }
+   
+header nav div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;	
+    align-items: center; 
+}
+
+.topTwo{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+	border-top: 1px solid black;
+} 
+.topTwo .features{
+	padding: 2%;
+}
+.topTwo .about{
+    padding: 2%;
+}
+.bottomThree{
+	display: flex;
+    flex-direction: row;
+    align-content: space-between;    
+}
+.bottomThree .services{
+    padding: 2%;
+}
+.bottomThree .products{
+    padding: 2%;
+}
+.bottomThree .vision{
+    padding: 2%;
+}
+}
+
+@media(min-width: 1024px){
+    header nav div{
+        display: flex;
+        justify-content: space-between;	
+        align-items: center;
+        height: 10vh;
+    }
+     .logoTopTablet{
+        display: none;
+     }   
+    .navLink {
+        text-decoration: none;
+        color: gray;
+        opacity: 50%;
+        border-bottom: none;
+    
+    }
+    .logoBottom{
+        display: flex;
+    }
+
+.container{
+    display: flex;
+    border-top: none;
+}
+.container .right{
+    display: block;
+    padding: 5%
+}
+   
+    
+   
 }
