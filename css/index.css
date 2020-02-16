@@ -1,3 +1,341 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+
+/*
+header nav div{
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+	height: 10vh;
+}
+	
+.navLink {
+	text-decoration: none;
+	color: gray;
+	opacity: 50%;
+
+}
+
+
+.container{
+	display: flex;
+	height: 35vh;
+	justify-content: space-around;
+}
+.container .left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+h1{
+	font-size: 70px;
+	text-align: center;
+}
+.container .right{	
+	justify-content: center;
+}
+
+button{
+	padding: 8px 10px;
+	border-color: black;
+	font-size: 13px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.topTwo{
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid black;
+}
+.topTwo .features{
+	width:49%;
+	padding: 20px 0;
+}
+.topTwo .about{
+	width:49%;
+	padding: 20px 0;
+}
+.middle-img{
+	max-width: 100%;
+}
+.bottomThree{
+	display: flex;
+	justify-content: space-between;
+	height: 15vh;
+	align-items: center;
+}
+
+.contact{
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid black;
+	justify-content: space-around;
+	height: 15vh;
+}
+h3{
+	margin-top: 10px;
+}
+.contact .info{
+	font-size: 15px;
+}
+footer{
+	display:flex;
+	justify-content: center;
+	padding: 20px 0;
+}
+/* Services page starts here
+
+.services-header-img{
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+h2{
+	font-size: 25px;
+}
+
+.ServiceAbout{
+ display: flex;
+ flex-direction: column;
+ align-content: space-between;
+ height:15vh;
+ margin-top: 20px;
+ /* padding: 2%; */
+
+
+/*
+.infoboxbox{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: 1px solid black;
+	
+
+}
+.infobox{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid black;
+	width: 48%;
+	padding: 2%;
+	background-color: lightgray;
+	margin-top: 20px;
+	
+}
+.ServiceButtons{
+	border-color: black;
+	font-size: 12px;
+	background-color: white;
+	text-align: center;
+	border-radius: 4px;
+	max-width: 40%;
+	margin-top: 10px;
+}
+.factsbox{
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	border-top: 1px solid black;
+	margin-top: 20px;
+	/* padding: 20px; */
+
+
+/*
+.factsbox h3{
+	margin-top: 35px;
+}
+ul{
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 1.5;
+	margin-top: 25px;
+}
+
+.services-info-img {
+	margin:20px;
+	max-width: 50%;
+  }*/
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+     /* margin: 0;
+      padding: 0;*/
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+      display: block;
+  }
+  body {
+      line-height: 1;
+  }
+  /* ol, ul {
+      list-style: none;
+  } */
+  blockquote, q {
+      quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content: '';
+      content: none;
+  }
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+  
+  /* Set every element's box-sizing to border-box */
+  * {
+      box-sizing: border-box;
+  }
+  
+  html, body {
+      height: 100%;
+      font-family: 'Titillium Web', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5 {
+      font-family: 'Bangers', cursive;
+      letter-spacing: 1px;
+      margin-bottom: 15px;
+  }
+/* Mobile 0px-500px*/
+h1{
+    font-family: 'Bangers';
+}
+h3{
+    font-family: 'Bangers';
+}
+p{
+    font-family: 'Titillium Web';
+}
+
+header nav div{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;	
+     align-items: center; 
+ }
+ .navLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 20px; 
+    text-decoration: none;
+	color: gray;
+    opacity: 50%;
+    width: 100%;
+}
+.logoBottom{
+    display: none;
+}
+ .container{
+	display: flex;
+    justify-content: space-around;
+
+}
+.container .left{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	
+}
+h1{
+	font-size: 70px;
+	text-align: center;
+}
+.container .right{	
+	display: none;
+}
+
+button{
+	padding: 8px 10px;
+	border-color: black;
+	font-size: 13px;
+	background-color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width:40%
+  }
+  .topTwo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+	justify-content: center;
+    border-top: 1px solid black;
+}
+/*.topTwo .features{
+	width:40%;
+
+}
+.topTwo .about{
+    width:40%;
+}*/
+	
+.middle-img{
+    width:100%;
+}
+.bottomThree{
+	display: flex;
+    flex-direction: column;
+    align-content: center;
+	justify-content: center;
+    align-items: center;
+  
+}
+
+h3{
+	margin-top: 10px;
+}
+.contact .info{
+	font-size: 15px;
+}
+footer{
+	display:flex;
+	justify-content: center;
+    padding: 20px 0;
+ 
+  }
+  .contact{
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid black;
+	justify-content: space-around;
+    height: 15vh;
+    
+}
+h3{
+	margin-top: 10px;
+}
+.contact .info{
+	font-size: 15px;
+}
+footer{
+	display:flex;
+	justify-content: center;
+	padding: 20px 0;
+}
